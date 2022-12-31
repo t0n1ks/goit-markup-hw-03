@@ -161,8 +161,9 @@ color: #434455;
 
 
 .title{ 
-margin-left:300px;
-margin-right: 300px;
+padding-top: 192px;
+padding-left:300px;
+padding-right: 300px;
 word-wrap: break-word;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -174,6 +175,7 @@ color: #FFFFFF;
 }
 
 .textbutton{
+    padding-bottom: 192px;
     margin-top: 48px;
     font-family: inherit;
     font-style: normal;
@@ -275,6 +277,7 @@ padding: 0px;
 }
 
 .title-team{
+margin-top: 32px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
@@ -285,6 +288,8 @@ color: #2E2F42;
 }
 
 .text-team{
+    margin-top: 10px;
+    padding-bottom: 32px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
