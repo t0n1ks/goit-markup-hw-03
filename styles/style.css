@@ -1,4 +1,11 @@
-
+:root{
+--first-title-color: #FFFFFF;
+--second-title-color:#2E2F42;
+--first-btn-color: #4D5AE5;
+--second-btn-color: #404BBF;
+--typical-lh: 1.33
+--lh:var(--typical-lh)
+}
 
 
 /*---------зброс марженів та маденгів-------------*/
