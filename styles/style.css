@@ -38,6 +38,7 @@ body{
     padding-right: 15px;
     outline: 1px;
     margin: 0 auto;
+   /*-outline: 1px solid red;-*/
 }
 
 /*-----SHABLON-TOP-LINE-------*/
@@ -346,7 +347,14 @@ color: #E7E9FC;
 
 /*--------------PORTFOLIO--------*/
 
-
+.filters-conteiner{
+    width: 1165px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px;
+    margin: 0 auto;
+  /*-outline: 1px solid red;-*/
+}
 .nav-portfolio{
     justify-content: center;
     padding-top: 96px;
