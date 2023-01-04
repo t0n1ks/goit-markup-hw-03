@@ -178,7 +178,6 @@ color: #FFFFFF;
     line-height: 1.18;
     color: #FFFFFF;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border:none;
     cursor: pointer; 
@@ -189,6 +188,7 @@ color: #FFFFFF;
 .textbutton:hover,
 .textbutton:focus{
     background-color: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } 
 
 
@@ -356,11 +356,7 @@ color: #E7E9FC;
 }
 
 .button-filters{
-    box-shadow: 0px 3px 1px 
-    rgba(0, 0, 0, 0.1), 0px 2px 1px 
-    rgba(0, 0, 0, 0.08), 0px 2px 2px 
-    rgba(0, 0, 0, 0.12);
-border-radius: 4px
+    
 }
 
 .button-text{
@@ -379,6 +375,13 @@ color: #ffffff;
   border: 1px  #E7E9FC;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.button-filters:hover{
+    box-shadow: 0px 3px 1px 
+    rgba(0, 0, 0, 0.1), 0px 2px 1px 
+    rgba(0, 0, 0, 0.08), 0px 2px 2px 
+    rgba(0, 0, 0, 0.12);
 }
 
 .button-filters:hover,
