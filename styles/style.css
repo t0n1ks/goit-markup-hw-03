@@ -64,7 +64,7 @@ body{
 }
 
 .logo {
-    
+    display: flex;
     margin-right: 80px;
 }
 
@@ -96,7 +96,7 @@ body{
 .header-nav{ 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.02em;
 }
 
@@ -132,7 +132,7 @@ body{
 .studio-nav:hover,
 .portfolio-nav:hover,
 .contact-nav:hover{
-    color:#4D5AE5;
+    color: #404BBF;
 }
 
 .header-mail{
@@ -146,14 +146,14 @@ color: #434455;
 
 .header-tel:hover,
 .header-mail:hover{
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
 /*-------MAIN BLACK BOX--------*/
 
 .mainheadder{
-    padding-top: 190px;
-    padding-bottom: 290px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     text-align: center;
     background: #2E2F42;
 }
@@ -161,13 +161,7 @@ color: #434455;
 
 
 .title{ 
-padding-top: 192px;
-padding-left:300px;
-padding-right: 300px;
-word-wrap: break-word;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -175,7 +169,6 @@ color: #FFFFFF;
 }
 
 .textbutton{
-    padding-bottom: 192px;
     margin-top: 48px;
     font-family: inherit;
     font-style: normal;
@@ -183,8 +176,8 @@ color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-    color:#4D5AE5;
-    background: #F4F4FD;
+    color: #FFFFFF;
+    background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border:none;
@@ -195,8 +188,7 @@ color: #FFFFFF;
 
 .textbutton:hover,
 .textbutton:focus{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 } 
 
 
@@ -204,10 +196,8 @@ color: #FFFFFF;
 
 .abouthead {
     padding-top: 120px;
-    justify-content: center;
     display: flex;
-    align-items: flex-start;
-    gap: 8px;
+    gap: 24px;
 
 }
 
@@ -229,10 +219,13 @@ color: #FFFFFF;
 }
 
 /*--------------Section2--------*/
-
-.title-two{
+.our-work{
 padding-top: 120px;
-font-weight: 600;
+padding-bottom: 120px;
+}
+.title-two{
+margin-bottom: 72px;
+font-weight: 700;
 font-size: 36px;
 text-align: center;
 letter-spacing: 0.02em;
@@ -242,9 +235,7 @@ color: #2E2F42;
 }
 
 .img-wedoing{
-    justify-content: center;
-    align-items: center;
-gap: 30px;
+gap: 24px;
 display: flex;
 padding: 0px;
 
@@ -252,17 +243,16 @@ padding: 0px;
 
 /*--------------Section3--------*/
 .team{
-    padding-bottom: 40px;
-    margin-top: 40px;
+    padding-bottom: 120px;
+    padding-top: 120px;
     background: right #F4F4FD;
     
 }
 
 .title-three{
-    padding-bottom: 72px;
-    padding-top: 202px;
+    margin-bottom: 72px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: #2E2F42;
@@ -270,9 +260,8 @@ padding: 0px;
 }
 
 .img-team{
-    padding-left: 5px;
     display: flex;
-    gap: 32px;    
+    gap: 24px;    
 
 }
 
@@ -313,12 +302,14 @@ color: #434455;
 
 /*--------------Footer--------*/
 footer{
-margin-top: 80px;
 background: #2E2F42;
 }
 
-.logo-footer{
+.footer{
     padding-top: 100px;
+    padding-bottom: 100px;
+}
+.logo-footer{
     font-family: 'Raleway';
     font-style: normal;
     display: flex;
@@ -327,8 +318,7 @@ background: #2E2F42;
   
 }
 
-.web-footer{
-    
+.web-footer{  
 font-weight: 800;
 font-size: 18px;
 line-height: 1.6;
@@ -343,10 +333,8 @@ color: #F4F4FD;
 
 }
 .footertext{
-    margin-right: 860px;
-    word-wrap: break-word;
-margin-top: 15px;
-padding-bottom: 100px;
+margin-top: 16px;
+word-wrap: break-word;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -358,18 +346,16 @@ color: #E7E9FC;
 
 /*--------------PORTFOLIO--------*/
 
-.filters{
-    text-align: center;
-    padding-bottom: 120px;
-}
 
 .nav-portfolio{
-    margin-top: 100px;
-    margin-bottom: 70px;
+    justify-content: center;
+    padding-top: 96px;
+    margin-bottom: 72px;
+    display: flex;
+    gap: 24px;
 }
 
 .button-filters{
-    margin-left: 15px;
     box-shadow: 0px 3px 1px 
     rgba(0, 0, 0, 0.1), 0px 2px 1px 
     rgba(0, 0, 0, 0.08), 0px 2px 2px 
@@ -378,50 +364,52 @@ border-radius: 4px
 }
 
 .button-text{
-    font-family: 'Roboto';
+padding: 12px 24px;
+font-family: 'Roboto';
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #4D5AE5;
+color: #ffffff;
 }
+
 .button-filters,
 .button-text{
-  
-  display:inline-block;
-  align-items: center;
-   
-  width: 100px;
-  height: 48px;
-
-  background: #F4F4FD;
-  
+  background: #4D5AE5;
   border: 1px  #E7E9FC;
   border-radius: 4px;
   cursor: pointer;
-
 }
 
 .button-filters:hover,
 .button-filters:focus,
 .button-text:hover{
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 }
 
 /*-------MAIN CONTENT PORTFOLIO--------*/
 
 .portfolio-content{
-    justify-content: center;
     display: flex;
-    flex-wrap:wrap;
-    gap: 48px 25px;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    padding-bottom: 120px;
 }
 
+.picture-content{
+box-sizing: border-box;
+width: 360px;
+height: 420px;
+}
 
 .content-card{
 border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.content-card:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    cursor: pointer;
 }
 
 .portfolio-title,
@@ -429,23 +417,24 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.02em;
+    padding-left: 16px;
 }
 
 .portfolio-title{
-font-weight: 600;
+padding-top: 32px;
+margin-bottom: 8px;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 color: #2E2F42;
-margin-top: 30px;
 }
 
 .portfolio-text{
+    padding-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    margin-bottom: 30px;
-    padding-top: 10px;
 }
 /*--------------FOOTER-PORTFOLIO------------*/
 
