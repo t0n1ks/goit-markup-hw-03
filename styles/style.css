@@ -28,7 +28,11 @@ body{
     line-height: 1.6;
 }
 
-
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 /*---------Header-Topline--------------*/
 
 .list{
@@ -375,27 +379,26 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #ffffff;
 }
 
-.button-filters,
+
 .button-text{
     color: #4D5AE5;
   background: #F4F4FD;
-  border: 1px  #E7E9FC;
+  border: 1px solid #E7E9FC;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.button-filters:hover{
+.button-text:hover{
     box-shadow: 0px 3px 1px 
     rgba(0, 0, 0, 0.1), 0px 2px 1px 
     rgba(0, 0, 0, 0.08), 0px 2px 2px 
     rgba(0, 0, 0, 0.12);
 }
 
-.button-filters:hover,
-.button-filters:focus,
+
+.button-text:focus,
 .button-text:hover{
     color: #FFFFFF;
     background-color: #404BBF;
@@ -413,13 +416,14 @@ color: #ffffff;
 
 .pic-size{
     width: 360px;
-    
+
     
 }
 
 
 .content-card-pic{
 border: 0.5px solid #F4F4FD;
+border-top: 0;
 }
 
 .content-card-pic:hover{
